@@ -1,3 +1,5 @@
+// part2_prog3.h - Part 2 Sobel Filter - Average Filter
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -7,11 +9,20 @@
 struct PGMImage{
 	unsigned int  width, height, max_gray;
 	// Holds Pixel Data for original Image
-	unsigned char matrix[MAX][MAX];
+	// original matrix had to be a float to store 
+	// random numbers that had decimal places and 
+	// values above 255 if necessary
+	float matrix[MAX][MAX];
 	unsigned char horiz_sobel[MAX][MAX];
 	unsigned char vert_sobel[MAX][MAX];
 	unsigned char sobel[MAX][MAX];
+	unsigned char edge[MAX][MAX];
+	unsigned char horiz_sobel_noisy[MAX][MAX];
+	unsigned char vert_sobel_noisy[MAX][MAX];
+	unsigned char noisy_sobel[MAX][MAX];
+	unsigned char noisy_edge[MAX][MAX];
 	unsigned char average_sobel[MAX][MAX];
+	unsigned char average_sobel_noisy[MAX][MAX];
 } input_image;                         // struct object to access struct members
 
 //----------------- FUNCTION PROTOTYPES--------------------------------------------
@@ -22,6 +33,12 @@ void readPGM(const char* filename);
 
 // writes the PGM files pointed to by argument
 void writePGM(const char* filename);
+
+// loops over the noisy and noise-free horizontal and vertical sobel
+// arrays and compares the differences betweem the two.  Determines
+// as percentages the accuracy of the noisy filter from threshold values
+// 0 all the way to 255
+void accuracy_CSV();
 
 /*
 	3x3 f(x,y) diagram for convolution
