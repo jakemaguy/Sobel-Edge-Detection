@@ -1,6 +1,9 @@
+// part1_prog3.h - Part 1 Sobel Filter
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <math.h>
 
 #define MAX 800
  
