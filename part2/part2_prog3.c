@@ -1,24 +1,3 @@
-part2_prog3.c
-Type
-Text
-Size
-19 KB (19,823 bytes)
-Storage used
-93 KB (95,697 bytes)
-Location
-part2
-Owner
-me
-Modified
-Apr 3, 2018 by me
-Opened
-11:53 AM by me
-Created
-Mar 25, 2018 with Google Drive Web
-Add a description
-Viewers can download
-
-// Jake Maguy - 01467783
 // part2_prog3.c - Part 2 Sobel Filter - Average Filter
 
 #include <stdio.h>
