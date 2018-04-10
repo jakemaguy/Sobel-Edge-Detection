@@ -1,9 +1,9 @@
-Purpose:
+# Purpose:
 The purpose of this project is to perform a Sobel Edge Operator on a digital image to emphasize
 the edges on the image.  The computer vision applications for this filter are explored.  Averaging
 filters were also explored to reduce the amount of noise/disotorion in an image.
 
-Source Code Files:
+# Source Code Files:
  /part1/part1_prog3.c  -- Source for part1
  /part1/part1_prog3.h  -- Header for part1
 
@@ -12,7 +12,7 @@ Source Code Files:
 
  /images/*  -- Directory where images are kept
 
- How to Run:
+ # How to Run:
 
  For Part1:
  1) Open up the part1_prog3.c file with vim, gedit, or any IDE
@@ -24,7 +24,7 @@ Source Code Files:
  3) Go to line 189 and edit noise factor to desired value
  4) Go to line 239 and edit noisy threshold to desired value
 
- Compling:
+ # Compling:
  In the project home directory, type make at the console.
 
  To run part1, navigate to part1 folder and type:
@@ -39,3 +39,13 @@ After executing part2, there should be a file named: accuracy.csv
 that contains the accuracy calculations for reference
 
 To remove the executables, run make clean at the console, in the home directory.
+
+## Image Results
+| Horizontal Sobel                     | Vertical Sobel                 | Binary Edge Sobel  |
+| ------------------------------------ |:------------------------------:| ------------------:|
+| ![](images/horizontal_sobel.png)     | ![](images/vertical_sobel.png) | ![](images/binary_edge_sobel.png)|
+
+
+
+
+
