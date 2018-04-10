@@ -41,8 +41,8 @@ that contains the accuracy calculations for reference
 To remove the executables, run make clean at the console, in the home directory.
 
 ## Image Results
-| Horizontal Sobel                     | Vertical Sobel                 | Binary Edge Sobel  |
-| ------------------------------------ |:------------------------------:| ------------------:|
+| Horizontal Sobel                     | Vertical Sobel                 | Binary Edge Sobel                 |
+| ------------------------------------ |:------------------------------:| ---------------------------------:|
 | ![](images/horizontal_sobel.png)     | ![](images/vertical_sobel.png) | ![](images/binaary_sobel_edge.png)|
 
 
