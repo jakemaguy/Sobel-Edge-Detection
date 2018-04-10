@@ -1,25 +1,3 @@
-README.txt
-Type
-Text
-Size
-2 KB (1,954 bytes)
-Storage used
-2 KB (1,954 bytes)
-Location
-Program 3
-Owner
-me
-Modified
-Apr 3, 2018 by me
-Opened
-Apr 3, 2018 by me
-Created
-Apr 3, 2018 with Google Drive Web
-Add a description
-Viewers can download
-
---------------------------------- README.txt ----------------------------------------------------
-
 Purpose:
 The purpose of this project is to perform a Sobel Edge Operator on a digital image to emphasize
 the edges on the image.  The computer vision applications for this filter are explored.  Averaging
