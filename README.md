@@ -35,19 +35,6 @@ To run part2, navigate to part2 folder and type:
 
 The images are stored in the project root images folder
 
-Part1 images			Part2 Images
-----------------------------------------------
-horiz_sobel.pgm			averaged_sobel_noisy_part2.pgm
-sobel.pgm			averaged_sobel_part2.pgm
-vert_sobel.pgm			edge_image.pgm
-				horiz_sobel_noisy.pgm
-				horiz_sobel_part2.pgm
-				noisy_edge_image.pgm
-				sobel_noisy.pgm
-				sobel_part2.pgm
-				vert_sobel_noisy.pgm
-				vert_sobel_part2.pgm
-
 After executing part2, there should be a file named: accuracy.csv
 that contains the accuracy calculations for reference
 
